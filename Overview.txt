@@ -1,0 +1,13 @@
+1️⃣ Data Acquisition: I fetched Infosys' stock data for 40 days (start='2023-09-01', end='2023-10-01') using the incredible yfinance library.
+
+2️⃣ Volatility Smoothing: To address inherent stock price volatility, I applied the savgol_filter to smoothen the curve, providing a clearer view of underlying trends.
+
+3️⃣ Identifying Key Points: Using a custom function (min_max_points), I pinpointed local minimum and maximum points in the smoothed line, crucial for determining support and resistance levels.
+
+4️⃣ Linear Regression Magic: Leveraging fundamental Linear Regression principles in supervised learning, I drew two pivotal lines. The Support Line connects all low points, while the Resistance Line links all high points.
+
+📊 Outcome: The result? A predictive model showcasing Infosys' support and resistance levels, offering valuable insights for traders navigating the market.
+
+
+🚨 Disclaimer: This project is for educational purposes only. It is not intended as financial advice or a trading strategy. Always conduct thorough research and consider professional advice before making any financial decisions.
+
